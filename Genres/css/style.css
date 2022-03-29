@@ -1,0 +1,104 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+.header__search {
+    padding: 8px;
+    border: 2px solid #1a191f;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+
+  .header {
+    width: 1203px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: left;
+    width: 95px;
+    height: 100%;
+    margin-right: 33px;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu {
+    width: 500px;
+    height: 53px;
+    line-height: 18px;
+    display: flex;
+  
+    top: 28px;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu li {
+    display: flex;
+    margin-left: 30px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu a:hover {
+    color: red;
+  }
+  
+  .sign {
+    width: 300px;
+    height: 53px;
+    line-height: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+  .sign ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sign li {
+    margin-left: 30px;
+    display: flex;
+    border: 3px solid;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: #e75480;
+    color: white;
+  }
+  
+  .sign a {
+    text-decoration: none;
+    color: black;
+  }
+  

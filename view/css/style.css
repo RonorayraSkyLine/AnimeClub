@@ -1,0 +1,280 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header__search {
+    padding: 8px;
+    border: 2px solid #1a191f;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+
+  .header {
+    width: 1203px;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: left;
+    width: 95px;
+    height: 100%;
+    margin-right: 33px;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu {
+    width: 500px;
+    height: 53px;
+    line-height: 18px;
+    display: flex;
+  
+    top: 28px;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu li {
+    display: flex;
+    margin-left: 30px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu a:hover {
+    color: red;
+  }
+  
+  .sign {
+    width: 300px;
+    height: 53px;
+    line-height: 18px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+  .sign ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sign li {
+    margin-left: 30px;
+    display: flex;
+    border: 3px solid;
+    border-radius: 16px;
+    padding: 10px;
+    background-color: #e75480;
+    color: white;
+  }
+  
+  .sign a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .movie {
+    width: 240px;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .movie__cover-inner {
+    position: relative;
+    height: 360px;
+  }
+  
+  .movie__cover {
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .movie__cover--darkened {
+    background-color: #000000;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .movie__cover--darkened:hover {
+    background-color: grey;
+    cursor: pointer;
+  }
+  
+  .movie__info {
+    padding: 10px 0px;
+  }
+  
+  .movie__title {
+    font-size: 24px;
+    color: #e75480;
+  }
+
+  .movie__title:hover {
+    cursor: pointer;
+    
+  }
+  
+  .movie__category {
+    font-size: 14px;
+    color: #ffd80e;
+  }
+  
+  .movie__average {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 0;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a191f;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .movie__average--green {
+    border: 1px solid green;
+  }
+  
+  .movie__average--orange {
+    border: 1px solid orange;
+  }
+  
+  .movie__average--red {
+    border: 1px solid red;
+  }
+  
+  iframe{
+    position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80vw;
+      height: 45vw;
+      z-index: 9001;
+  }
+  
+  .player{
+    height: 100%;
+    width: 100%;
+    z-index: 9000;
+  }
+  
+  .player_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1080px;
+    width: 1920px;
+    opacity: 0.7;
+    background-color: #000000;
+    z-index: 9000;
+  }
+  
+  .hide{
+    display: none;
+  }
+
+  .screen7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1900px;
+    height: 100px;
+    padding: 0 51px;
+  }
+  
+  .copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .copyright p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+  }
+  
+  .copyright p:nth-child(2){
+    margin-bottom: 0;
+  }
+  
+  .about-wallets{
+    width: 162px;
+    height: 64px;
+  }
+  
+  .abouts{
+    display: flex;
+    flex-direction: row;
+    width: 156px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .abouts a{
+    margin-right: 12px;
+  }
+  
+  .abouts a:nth-child(4){
+    margin-right: 0;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    background: #000000;
+  }
